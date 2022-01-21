@@ -1455,7 +1455,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "ᖇEᑭᒪY ᖇᗩIᗪ [ᗩᑕTIᐯᗩTEᗪ]!!\n           〄 ╔»⟦★𝗤𝗡𝗥★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄""
+            text = "ᖇEᑭᒪY ᖇᗩIᗪ [ᗩᑕTIᐯᗩTEᗪ]!!\n••••[×]  〄 ╔»⟦★𝗤𝗡𝗥★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1508,7 +1508,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "𝚁𝙰𝙽𝙳𝙸 𝙺𝙸 𝙲𝙷𝚄𝙳𝙰𝙸 𝙳𝙾𝙽𝙴!! ᖇEᑭᒪY ᖇᗩIᗪ [ᗪE-ᗩᑕTIᐯᗩTEᗪ]\n           〄 ╔»⟦★𝗤𝗡𝗥★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄"
+            text = "𝚁𝙰𝙽𝙳𝙸 𝙺𝙸 𝙲𝙷𝚄𝙳𝙰𝙸 𝙳𝙾𝙽𝙴!! ᖇEᑭᒪY ᖇᗩIᗪ [ᗪE-ᗩᑕTIᐯᗩTEᗪ]\n••••[×]  〄 ╔»⟦★𝗤𝗡𝗥★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1519,7 +1519,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "𝚁𝙰𝙽𝙳𝙸 𝙺𝙸 𝙲𝙷𝚄𝙳𝙰𝙸 𝙳𝙾𝙽𝙴!!\nᖇEᑭᒪY ᖇᗩIᗪ [ᗪE-ᗩᑕTIᐯᗩTEᗪ]\n           〄 ╔»⟦★𝗤𝗡𝗥★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄"
+            text = "𝚁𝙰𝙽𝙳𝙸 𝙺𝙸 𝙲𝙷𝚄𝙳𝙰𝙸 𝙳𝙾𝙽𝙴!!\nᖇEᑭᒪY ᖇᗩIᗪ [ᗪE-ᗩᑕTIᐯᗩTEᗪ]\n••••[×]  〄 ╔»⟦★𝗤𝗡𝗥★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1563,7 +1563,7 @@ async def alive(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f".🤖 I Am Still alive Lomdike !!!!\n`{ms}` 𝗺𝘀\n          〄 ╔»⟦★𝗤𝗡𝗥★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄")
+        await event.edit(f".🤖 I Am Still alive Lomdike !!!!\n`{ms}` 𝗺𝘀\n••••[×]  〄 ╔»⟦★𝗤𝗡𝗥★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄")
         
         
 
@@ -1599,7 +1599,7 @@ async def alive(e):
 @str30.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "【﻿ＲＥＳＴＡＲＴＩＮＧ】!!!\nPʟᴇᴀꜱᴇ Wᴀɪᴛ Tɪʟʟ lᴛ Rᴇʙᴏᴏᴛꜱ..."
+        text = "【﻿ＲＥＳＴＡＲＴＩＮＧ】!!!\nPʟᴇᴀꜱᴇ Wᴀɪᴛ Tɪʟʟ lᴛ Rᴇʙᴏᴏᴛꜱ...\n••••[×]  〄 ╔»⟦★𝗤𝗡𝗥★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄"
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await str1.disconnect()
@@ -1768,11 +1768,11 @@ async def help(e):
 
     
         
-text = """𝗤𝗡𝗥 𝗦𝗣𝗔𝗠𝗠𝗘𝗥 𝗕𝗢𝗧"""
+text = """********𝗤𝗡𝗥 𝗦𝗣𝗔𝗠𝗠𝗘𝗥 𝗕𝗢𝗧********"""
 
 print(text)
 print("")
-print("DONE! 〄 ╔»⟦★𝗤𝗡𝗥★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄 STARTED.\nNOW ADD YOUR SPAMMERBOT IN ONE GROUP THEM TYPE .alive With Sudo Account")
+print("DONE! 〄 ╔»⟦★𝗤𝗡𝗥★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄 STARTED.\n\n\nNOW ADD YOUR SPAMMERBOT IN ONE GROUP THEM TYPE .alive With Sudo Account")
 if len(sys.argv) not in (1, 3, 4):
     try:
         str1.disconnect()
