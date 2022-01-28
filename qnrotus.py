@@ -1079,8 +1079,8 @@ async def _(e):
 @str29.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
 @str30.on(events.NewMessage(incoming=True, pattern=r"\.hang"))
 async def spam(e):
-    usage = f"**🧿Wʀᴏɴɢ Usᴀɢᴇ🧿**\n\nUsᴇ: ```{hn}help spamcmds``` Tᴏ ᴋɴᴏᴡ ᴜsᴀɢᴇ ᴏғ ᴀʟʟ sᴘᴀᴍ ᴄᴏᴍᴍᴀɴᴅs."
-      if e.sender_id in SMEX_USERS:
+    usage = f"**🧿Wʀᴏɴɢ Usᴀɢᴇ🧿help spamcmds``` Tᴏ ᴋɴᴏᴡ ᴜsᴀɢᴇ ᴏғ ᴀʟʟ sᴘᴀᴍ ᴄᴏᴍᴍᴀɴᴅs."
+                if e.sender_id in SMEX_USERS:
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(yukki) == 1:
             counter = int(yukki[0])
