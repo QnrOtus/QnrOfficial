@@ -171,9 +171,24 @@
         "value": "",
         "required": false
       },
-      "SUDO": {
+      "SUDO_USERS": {
         "description": "Fill all Sudo Users Id",
         "value": "2092103173",
+        "required": true
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your Heroku app name",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY ": {
+        "description": "Heroku Api Key",
+        "value": "",
+        "required": true
+      },
+      "CMD_HNDLR": {
+        "description": "Command Handler",
+        "value": ".",
         "required": true
       }
   },
