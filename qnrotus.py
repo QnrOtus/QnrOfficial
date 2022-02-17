@@ -899,34 +899,7 @@ async def gifspam(e, smex):
         pass
 
 
-Heroku = heroku3.from_key(HEROKU_API_KEY)
-heroku_api = "https://api.heroku.com"
-sudousers = os.environ.get("SUDO_USERS", None)
 
-
-@str1.on(events.NewMessage(incoming=True, pattern=r"\%saddsudo(?: |$)(.*)" % hl))
-async def tb(event):
-    if event.sender_id in DEV:
-        ok = await event.reply("Adding user as a sudo...")
-        lucifer = "SUDO_USER"
-        if HEROKU_APP_NAME is not None:
-            app = Heroku.app(HEROKU_APP_NAME)
-        else:
-            await ok.edit("`[HEROKU]:" "\nPlease setup your` **HEROKU_APP_NAME**")
-            return
-        heroku_var = app.config()
-        if event is None:
-            return
-        try:
-            target = await get_user(event)
-        except Exception:
-            await ok.edit(f"Reply to a user.")
-        if sudousers:
-            newsudo = f"{sudousers} {target}"
-        else:
-            newsudo = f"{target}"
-        await ok.edit(f"**Added `{target}` ** as a sudo user 🔱 Restarting.. Please wait a minute...")
-        heroku_var[lucifer] = newsudo
 
         
 
